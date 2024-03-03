@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* style berishlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-hreft {
+    display: flex;
+    gap: 45px;
+}
+
+.a-hreftim {
+    color: black;
+    font-family: Nunito Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.bold {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F7515C;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.h2- {
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.btn1 {
+    border: none;
+    padding: 26px 55px;
+    background-color: #F7515C;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+    color: white;
+}
+
+.bt2 {
+    background: none;
+    border: none;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    /* text-align: left;*/
+}
+
+.paragrof {
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+}
+
+.bold2 {
+    font-family: Montserrat;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 122px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+}
+
+.paragrof2 {
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+}
+
+.father {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn3 {
+    border: none;
+    color: white;
+    background-color: #F7515C;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+    padding: 26px 52px;
+}
+
+.h3- {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+}
+
+.paragrof3 {
+    font-family: Montserrat;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 122px;
+    letter-spacing: 0em;
+    /* text-align: left;  */
+}
+
+.paragrof4 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+}
+
+.paragrof5 {
+    font-family: Montserrat;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 122px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Modern {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 122px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+}
+
+.bold3 {
+    font-family: Montserrat;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 122px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+}
+
+.btn4 {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+    border: none;
+    background-color: #F7515C;
+    padding: 29px 69px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
